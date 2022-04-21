@@ -1,7 +1,8 @@
 const { ethers } = require("ethers")
-const apikey = "59b6c5af-5145-4ee5-b99f-99bbc0500638"
+//please put in the appropriate apikey
+const apikey = ""
 
-const contractAddress = ""
+const contractAddress = "0x250b211ee44459dad5cd3bca803dd6a7ecb5d46c"
 const provider = new ethers.providers.JsonRpcProvider(`https://bsc.getblock.io/mainnet/?api_key=${apikey}`)
 const ABI = [
     "function balanceOf(address account) external view returns (uint256)"
